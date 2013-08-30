@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="CXX" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/CXX" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="gdi32" />
+					<Add library="gdiplus" />
+					<Add library="Comdlg32" />
+					<Add library="Comctl32" />
+					<Add library="ws2_32" />
+					<Add library="ntdll" />
+					<Add library="src\Libraries\ZLib\libz_x32.a" />
+					<Add library="src\Libraries\ZLib\libz_x64.a" />
+					<Add library="src\Libraries\LibPng\libpng_x32.a" />
+					<Add library="src\Libraries\LibPng\libpng_x64.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/CXX" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-Winit-self" />
+					<Add option="-Wredundant-decls" />
+					<Add option="-Wcast-align" />
+					<Add option="-Wundef" />
+					<Add option="-Winline" />
+					<Add option="-Wunreachable-code" />
+					<Add option="-Wmissing-include-dirs" />
+					<Add option="-Wswitch-enum" />
+					<Add option="-Wswitch-default" />
+					<Add option="-Wzero-as-null-pointer-constant" />
+					<Add option="-Weffc++" />
+					<Add option="-Wmain" />
+					<Add option="-std=c++11" />
+					<Add option="-m64" />
+					<Add option="-DUNICODE" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-m64" />
+					<Add library="gdi32" />
+					<Add library="gdiplus" />
+					<Add library="Comdlg32" />
+					<Add library="Comctl32" />
+					<Add library="ws2_32" />
+					<Add library="ntdll" />
+					<Add library="src\Libraries\ZLib\libz_x32.a" />
+					<Add library="src\Libraries\ZLib\libz_x64.a" />
+					<Add library="src\Libraries\LibPng\libpng_x32.a" />
+					<Add library="src\Libraries\LibPng\libpng_x64.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Base64.cpp" />
+		<Unit filename="src/Base64.hpp" />
+		<Unit filename="src/BaseForm.hpp" />
+		<Unit filename="src/Brushes.cpp" />
+		<Unit filename="src/Brushes.hpp" />
+		<Unit filename="src/Control.cpp" />
+		<Unit filename="src/Control.hpp" />
+		<Unit filename="src/Debug.cpp" />
+		<Unit filename="src/Debug.hpp" />
+		<Unit filename="src/Defines.cpp" />
+		<Unit filename="src/Defines.hpp" />
+		<Unit filename="src/Form.cpp" />
+		<Unit filename="src/Form.hpp" />
+		<Unit filename="src/Functions.cpp" />
+		<Unit filename="src/Functions.hpp" />
+		<Unit filename="src/GdiImage.cpp" />
+		<Unit filename="src/GdiImage.hpp" />
+		<Unit filename="src/ImageFinder.cpp" />
+		<Unit filename="src/ImageFinder.hpp" />
+		<Unit filename="src/Images.cpp" />
+		<Unit filename="src/Images.hpp" />
+		<Unit filename="src/Mathematics.cpp" />
+		<Unit filename="src/Mathematics.hpp" />
+		<Unit filename="src/Pens.cpp" />
+		<Unit filename="src/Pens.hpp" />
+		<Unit filename="src/Platforms.hpp" />
+		<Unit filename="src/Serialize.cpp" />
+		<Unit filename="src/Serialize.hpp" />
+		<Unit filename="src/SharedMemory.cpp" />
+		<Unit filename="src/SharedMemory.hpp" />
+		<Unit filename="src/Strings.cpp" />
+		<Unit filename="src/Strings.hpp" />
+		<Unit filename="src/System.cpp" />
+		<Unit filename="src/System.hpp" />
+		<Unit filename="src/Templates.hpp" />
+		<Unit filename="src/Types.cpp" />
+		<Unit filename="src/Types.hpp" />
+		<Unit filename="src/Unicode.hpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

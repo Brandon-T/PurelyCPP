@@ -1,0 +1,256 @@
+# depslib dependency file v1.0
+1369874938 source:c:\users\brandon\documents\github\purelycpp\src\base64.cpp
+	<algorithm>
+	"Base64.hpp"
+
+1369353749 c:\users\brandon\documents\github\purelycpp\src\base64.hpp
+	"Mathematics.hpp"
+
+1369353749 c:\users\brandon\documents\github\purelycpp\src\mathematics.hpp
+	"Strings.hpp"
+
+1373166429 c:\users\brandon\documents\github\purelycpp\src\strings.hpp
+	<string>
+	<vector>
+	"Unicode.hpp"
+	<stdexcept>
+	<cstring>
+	"Defines.hpp"
+	"Types.hpp"
+	"Libraries/ZLib/zlib.h"
+
+1369874938 c:\users\brandon\documents\github\purelycpp\src\unicode.hpp
+	<fstream>
+	<sstream>
+	<streambuf>
+	<tchar.h>
+	<string>
+
+1373185784 c:\users\brandon\documents\github\purelycpp\src\defines.hpp
+	"Unicode.hpp"
+	"Platforms.hpp"
+	<iostream>
+	<sstream>
+	<algorithm>
+	<stdexcept>
+	<string>
+
+1369352980 c:\users\brandon\documents\github\purelycpp\src\platforms.hpp
+	"Unicode.hpp"
+	<windows.h>
+	<process.h>
+	<stdint.h>
+	<dirent.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<unistd.h>
+	<dlfcn.h>
+	<cstdarg>
+	<cstring>
+	<iostream>
+	<fcntl.h>
+	<sys/mman.h>
+
+1369353818 c:\users\brandon\documents\github\purelycpp\src\types.hpp
+	<vector>
+	<cassert>
+	<sstream>
+	<algorithm>
+	<utility>
+	"Defines.hpp"
+
+1363493078 c:\users\brandon\documents\github\purelycpp\src\libraries\zlib\zlib.h
+	"zconf.h"
+
+1363493078 c:\users\brandon\documents\github\purelycpp\src\libraries\zlib\zconf.h
+	<windows.h>
+	<limits.h>
+	<sys/types.h>
+	<stddef.h>
+	<unistd.h>
+	<unixio.h>
+
+1373092319 source:c:\users\brandon\documents\github\purelycpp\src\brushes.cpp
+	"Brushes.hpp"
+
+1369353749 c:\users\brandon\documents\github\purelycpp\src\brushes.hpp
+	"Platforms.hpp"
+	"Types.hpp"
+
+1369875003 source:c:\users\brandon\documents\github\purelycpp\src\control.cpp
+	"Control.hpp"
+
+1369875003 c:\users\brandon\documents\github\purelycpp\src\control.hpp
+	"Unicode.hpp"
+	"Platforms.hpp"
+	<tchar.h>
+	<Commctrl.h>
+	<Richedit.h>
+	<array>
+	<iostream>
+	<functional>
+	<stdexcept>
+	"Types.hpp"
+	"Images.hpp"
+
+1369353749 c:\users\brandon\documents\github\purelycpp\src\images.hpp
+	<cmath>
+	<fstream>
+	<cstring>
+	<stdexcept>
+	"Defines.hpp"
+	"Base64.hpp"
+	"Types.hpp"
+	"Libraries/LibPng/png.h"
+
+1363494048 c:\users\brandon\documents\github\purelycpp\src\libraries\libpng\png.h
+	"pnglibconf.h"
+	"pngconf.h"
+
+1363494048 c:\users\brandon\documents\github\purelycpp\src\libraries\libpng\pnglibconf.h
+
+1363494048 c:\users\brandon\documents\github\purelycpp\src\libraries\libpng\pngconf.h
+	<limits.h>
+	<stddef.h>
+	<stdio.h>
+	<setjmp.h>
+	<time.h>
+
+1369874939 source:c:\users\brandon\documents\github\purelycpp\src\debug.cpp
+	<algorithm>
+	"Debug.hpp"
+
+1369353749 c:\users\brandon\documents\github\purelycpp\src\debug.hpp
+	"Platforms.hpp"
+	<iostream>
+	<fstream>
+	<thread>
+	<atomic>
+	<system_error>
+
+1369353818 source:c:\users\brandon\documents\github\purelycpp\src\defines.cpp
+	"Defines.hpp"
+
+1369353818 source:c:\users\brandon\documents\github\purelycpp\src\form.cpp
+	"Form.hpp"
+
+1369353749 c:\users\brandon\documents\github\purelycpp\src\form.hpp
+	"Platforms.hpp"
+	<iostream>
+	"Types.hpp"
+
+1369874939 source:c:\users\brandon\documents\github\purelycpp\src\functions.cpp
+	<algorithm>
+	<vector>
+	"Functions.hpp"
+
+1369874938 c:\users\brandon\documents\github\purelycpp\src\functions.hpp
+	<string>
+	<fstream>
+	<array>
+	"Types.hpp"
+	"Libraries/ZLib/zlib.h"
+
+1369353818 source:c:\users\brandon\documents\github\purelycpp\src\gdiimage.cpp
+	"GdiImage.hpp"
+
+1369353749 c:\users\brandon\documents\github\purelycpp\src\gdiimage.hpp
+	"Unicode.hpp"
+	<windows.h>
+	<gdiplus.h>
+	"Types.hpp"
+
+1373180873 source:c:\users\brandon\documents\github\purelycpp\src\imagefinder.cpp
+	<cstdlib>
+	<stdexcept>
+	"ImageFinder.hpp"
+
+1369353749 c:\users\brandon\documents\github\purelycpp\src\imagefinder.hpp
+	"Images.hpp"
+
+1377473493 source:c:\users\brandon\documents\github\purelycpp\src\images.cpp
+	<algorithm>
+	<cassert>
+	<cstdlib>
+	<cstring>
+	<fstream>
+	<iterator>
+	<stdexcept>
+	<string>
+	<utility>
+	<vector>
+	"Images.hpp"
+
+1369874939 source:c:\users\brandon\documents\github\purelycpp\src\mathematics.cpp
+	<algorithm>
+	<cassert>
+	"Mathematics.hpp"
+
+1369874939 source:c:\users\brandon\documents\github\purelycpp\src\pens.cpp
+	<algorithm>
+	"Pens.hpp"
+
+1369353749 c:\users\brandon\documents\github\purelycpp\src\pens.hpp
+	"Platforms.hpp"
+	"Types.hpp"
+
+1369874939 source:c:\users\brandon\documents\github\purelycpp\src\serialize.cpp
+	<string>
+	"Serialize.hpp"
+
+1369353818 c:\users\brandon\documents\github\purelycpp\src\serialize.hpp
+	<vector>
+	<sstream>
+	<iostream>
+	<list>
+
+1369874939 source:c:\users\brandon\documents\github\purelycpp\src\sharedmemory.cpp
+	<algorithm>
+	<iterator>
+	<utility>
+	"SharedMemory.hpp"
+
+1369353749 c:\users\brandon\documents\github\purelycpp\src\sharedmemory.hpp
+	"Platforms.hpp"
+	<iostream>
+	<map>
+
+1373098504 source:c:\users\brandon\documents\github\purelycpp\src\sockets.cpp
+	"Sockets.hpp"
+
+1373100641 c:\users\brandon\documents\github\purelycpp\src\sockets.hpp
+	<string>
+	"Unicode.hpp"
+	<Winsock2.h>
+	<Windows.h>
+	<Ws2tcpip.h>
+	"Defines.hpp"
+	"Strings.hpp"
+	<Curl/curl.h>
+	"Strings.hpp"
+
+1373166436 source:c:\users\brandon\documents\github\purelycpp\src\strings.cpp
+	<algorithm>
+	"Strings.hpp"
+
+1369874939 source:c:\users\brandon\documents\github\purelycpp\src\system.cpp
+	<algorithm>
+	<string>
+	"System.hpp"
+
+1369353749 c:\users\brandon\documents\github\purelycpp\src\system.hpp
+	"Platforms.hpp"
+	"Strings.hpp"
+	<iostream>
+	<chrono>
+	<ctime>
+	<cstdlib>
+	<vector>
+	<cstring>
+	<fstream>
+	<TlHelp32.h>
+
+1369874938 source:c:\users\brandon\documents\github\purelycpp\src\types.cpp
+	<cstdlib>
+	"Types.hpp"
+
